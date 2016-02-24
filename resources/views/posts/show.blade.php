@@ -17,10 +17,11 @@
 
   <hr>
   <h2>Comments:</h2>
-    <ul>
+  <ul>
       @foreach ($posts->comments as $comment)
-       <li><h4 id="author"><b>{{ $comment->author }}</b></h4></li>
-       <li>- {{ $comment->comment }}</li>
+       <li><h4><b><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+       {{ $comment->author }}</b></h4></li>
+       <li>-> {{ $comment->comment }}</li>
   @endforeach
-    </ul>
+  </ul>
 @endsection
