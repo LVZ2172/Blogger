@@ -9,7 +9,7 @@
  @foreach ($posts as $post)
   <div class="col-md-4">
     <div class="panel panel-primary">
-      <div class="panel-heading"><h4><b>{{ $post->title }}</b></h4></div>
+      <div class="panel-heading"><h4><b><a href="posts/{{ $post->id }} ">{{ strtoupper($post->title) }}</a></b></h4></div>
         <div class="panel-body">
          {{ $post->body }}
         </div>

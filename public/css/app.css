@@ -5,6 +5,10 @@
    src: url('Pacifico.ttf');
  }
 
+ a {
+   color: white;
+ }
+
 body {
     font-family: 'pacifico';
     color: white;
@@ -17,7 +21,7 @@ body {
 .navbar-default {
   background-color: white;
   border-color: white;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .content {
@@ -33,7 +37,7 @@ body {
 
 .panel-primary {
   border-color: white;
-  border-radius 0px;
+  border: 5px solid transparent;
 }
 
 .panel-body {
@@ -53,4 +57,11 @@ body {
 
 h1 {
   margin-bottom: 50px;
+}
+
+.btn-group{
+  white-space:nowrap;
+ }
+button{
+ white-space:normal;
 }
