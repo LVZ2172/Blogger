@@ -59,9 +59,18 @@ h1 {
   margin-bottom: 50px;
 }
 
-.btn-group{
+h4#author {
+  text-decoration: underline;
+}
+
+.btn-group {
   white-space:nowrap;
  }
+
 button{
  white-space:normal;
+}
+
+ul {
+    list-style-type: none;
 }
