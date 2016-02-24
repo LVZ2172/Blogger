@@ -1,0 +1,56 @@
+
+/*# sourceMappingURL=app.css.map */
+@font-face {
+   font-family: 'pacifico';
+   src: url('Pacifico.ttf');
+ }
+
+body {
+    font-family: 'pacifico';
+    color: white;
+}
+
+.container#override {
+  text-align: center;
+}
+
+.navbar-default {
+  background-color: white;
+  border-color: white;
+  margin-bottom: 15px;
+}
+
+.content {
+  background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
+  height: 600px;
+  border-top: solid black;
+}
+
+.panel-primary > .panel-heading {
+  background-color: #563d7c;
+  border-color: #6f5499;
+}
+
+.panel-primary {
+  border-color: white;
+  border-radius 0px;
+}
+
+.panel-body {
+  color: black;
+}
+
+.bootstrap#override .jumbotron {
+  margin-bottom: 0px;
+  background-image: url('background.jpg');
+  border-bottom: solid black;
+}
+
+.footer#foot {
+  width:100%;
+  height:100%;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
